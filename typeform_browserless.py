@@ -12,7 +12,7 @@ MISTRAL_API_KEY = "qH9CxqUKxi0SwHxsL3AxSQcNyZUHBQU3"  # <-- Set this (if you sti
 TYPEFORM_URL = f"https://form.typeform.com/to/{TYPEFORM_FORM_ID}"
 
 # Set to True to run without a browser window
-HEADLESS = False
+HEADLESS = True
 
 # Define the path to your placeholder file (for file_upload fields).
 PITCH_DECK_PATH = os.path.join(os.getcwd(), "placeholder_deck.pdf")
